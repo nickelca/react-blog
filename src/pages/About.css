@@ -19,7 +19,6 @@ header {
     border-left-width: 35px;
     border-left-color: #FF5E00;
     border-left-style: solid;
-    border-image: url("/stripes.png") 0 0 0 35 repeat;
 
     margin-right: 35px;
 
@@ -88,12 +87,4 @@ main {
     border-right-style: solid;
     border-right-color: #FF5E00;
     padding-left: 35px;
-    border-image: url("stripes.png") 0 35 0 0 repeat;
-}
-
-.noise {
-    width: 250px;
-    height: 250px;
-    background:
-        linear-gradient(0deg, rgba(0, 0, 255, 1), rgba(0, 0, 0, 0)) !important;
 }

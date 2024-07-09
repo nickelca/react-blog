@@ -9,7 +9,7 @@ export default function AboutPage() {
                     <h1><a href='/'>Chase Nickel</a></h1>
                 </hgroup>
                 <ul className='header-links'>
-                    <li><a href='/About'>About</a></li>
+                    <li><a href='/about'>About</a></li>
                     <li><a href='https://github.com/Chase-Nickel'>Github</a></li>
                 </ul>
             </header>

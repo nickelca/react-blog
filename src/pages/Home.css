@@ -19,7 +19,6 @@ header {
     border-left-width: 35px;
     border-left-color: #FF5E00;
     border-left-style: solid;
-    border-image: url("/stripes.png") 0 0 0 35 repeat;
 
     margin-right: 35px;
 
