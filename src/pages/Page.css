@@ -1,0 +1,124 @@
+#root {
+    color: rgb(20, 29, 106);
+    --text-bg-color: rgb(239, 156, 102);
+    --ribbon-dark-color: rgb(255, 94, 0);
+    --ribbon-light-color: rgb(255, 126, 62);
+}
+
+hgroup {
+    padding: 3em 0em 2em 2em;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 1400;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    border-left-width: 35px;
+    border-left-color: var(--ribbon-dark-color);
+    border-left-style: solid;
+
+    margin-right: 35px;
+
+    background-color: var(--text-bg-color);
+    border-top-right-radius: 10px;
+}
+
+.header-links {
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: right;
+    list-style-type: none;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    margin: 1em 35px 1em 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--ribbon-light-color);
+    z-index: 1500;
+    height: 35px;
+    padding: 0.5em 35px;
+}
+
+.ribbon-top {
+    margin: 0px 35px;
+    clear: both;
+    position: relative;
+}
+
+.ribbon-top::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -35px;
+    top: 0px;
+    border: 35px solid;
+    border-color: var(--ribbon-light-color) transparent transparent transparent;
+}
+
+.ribbon-top::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -35px;
+    bottom: 0px;
+    border: 35px solid;
+    border-color: transparent transparent var(--ribbon-light-color) transparent;
+}
+
+.ribbon-bottom {
+    margin: 0px 35px;
+    clear: both;
+    position: relative;
+    border-bottom-left-radius: 10px;
+}
+
+.ribbon-bottom::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -35px;
+    top: 0px;
+    border: 35px solid;
+    border-color: var(--ribbon-light-color) transparent transparent transparent;
+}
+
+.main {
+    border-right-width: 35px;
+    border-right-style: solid;
+    border-right-color: var(--ribbon-dark-color);
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-left: 35px;
+    width: calc(45vw - 35px);
+    height: 50vh;
+    background-color: var(--text-bg-color);
+}
+
+.page {
+    width: 45vw;
+}
+
+.page h1 a {
+    font-weight: 1000;
+}

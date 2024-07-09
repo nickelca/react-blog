@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Image, Card, Carousel } from 'react-bootst
 
 export default function AboutPage() {
     return (
-        <div>
+        <div className='page'>
             <header role='banner'>
                 <hgroup>
                     <h1><a href='/'>Chase Nickel</a></h1>
@@ -13,12 +13,15 @@ export default function AboutPage() {
                     <li><a href='https://github.com/Chase-Nickel'>Github</a></li>
                 </ul>
             </header>
-            <nav className='header-nav' role='navigation'>
+            <nav className='ribbon-top'>
 
             </nav>
             <div className='main'>
                 About me
             </div>
+            <nav className='ribbon-bottom'>
+
+            </nav>
         </div>
     );
 }
