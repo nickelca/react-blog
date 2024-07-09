@@ -22,7 +22,7 @@ export default function Blog_2024July9() {
                     <h4>July 9th - 2024</h4>
                 </header>
                 <div id="blog-container">
-                    <Image id="floated" className='July-9-2024-img1' src="../../../../public/July-9-2024-img1.png" />
+                    <Image id="floated" className='July-9-2024-img1' src="/July-9-2024-img1.png" />
                     <p>Juan Eulogio, a compsci major at UW Madison in his senior year volunteered
                         his time to teach a group of students, me included, how to make a website!
                         We're using the JavaScript framework ReactJS, HTML, and CSS to make and style
