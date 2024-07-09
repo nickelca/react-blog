@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Container, Row, Col, Button, Image, Card, Carousel } from 'react-bootstrap';
 import "../../../pages/Page.css"
 
-export default function Blog_2024May18() {
+export default function Blog_2024July9() {
     return (
         <div className='page'>
             <header className='banner'>
@@ -17,19 +17,19 @@ export default function Blog_2024May18() {
             <nav className='ribbon-top'></nav>
             <div className='content'>
                 <header>
-                    <h1>EAA Volunteer Weekend</h1>
+                    <h1>Coding a website!</h1>
                     <div className='line-break' />
-                    <h4>May 18th - 2024</h4>
+                    <h4>July 9th - 2024</h4>
                 </header>
                 <div id="blog-container">
-                    <Image id="floated" className='May-18-2024-img1' src="../../../../public/May-18-2024-img1.png" />
-                    <p>Yesterday, I drove up to Oshkosh all the way from Milwaukee with my uncle and cousins
-                        to the Experimental Aircraft Association (EAA). We did volunteer work over the weekend.
-                        I ended up wiring about 30 outlets for charging stations. I then got to fly in a two-seater
-                        small plane built out of fiberglass and aluminum at the EAA called a GlaStar. We were 600 feet
-                        in the air when the pilot let me steer the plane around!
+                    <Image id="floated" className='July-9-2024-img1' src="../../../../public/July-9-2024-img1.png" />
+                    <p>Juan Eulogio, a compsci major at UW Madison in his senior year volunteered
+                        his time to teach a group of students, me included, how to make a website!
+                        We're using the JavaScript framework ReactJS, HTML, and CSS to make and style
+                        our website. I've programmed for a while, but I had no clue how to do this until
+                        he helped us get started! I've seen a bunch of nice websites made by the other
+                        students in the class. I've had a blast doing this. 10/10 experience, would recommend.
                     </p>
-                    <Image className='May-18-2024-img2' src="../../../../public/May-18-2024-img2.png" />
                 </div>
             </div>
             <nav className='ribbon-bottom'></nav>

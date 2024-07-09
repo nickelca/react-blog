@@ -21,7 +21,8 @@ export default function Home() {
                 </header>
                 <h4>2024</h4>
                 <ul className='blog-links'>
-                    <li><a href='/2024/May/18'>May 18</a></li>
+                    <li><a href='/2024/July/9'>July 9 - Coding a website</a></li>
+                    <li><a href='/2024/May/18'>May 18 - EAA Volunteer Weekend</a></li>
                 </ul>
             </div>
             <nav className='ribbon-bottom'></nav>
