@@ -4,6 +4,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --bg-gradient-top: rgb(120, 171, 168);
+  --bg-gradient-bottom: rgba(172, 108, 223, .5);
 }
 
 body {
@@ -11,5 +14,5 @@ body {
   display: flex;
   place-items: center;
   background:
-    linear-gradient(180deg, rgba(54, 186, 152, 1), rgba(172, 108, 223, .5));
+    linear-gradient(180deg, var(--bg-gradient-top), var(--bg-gradient-bottom));
 }

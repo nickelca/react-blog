@@ -5,7 +5,7 @@ import "./Page.css"
 export default function Home() {
     return (
         <div className='page'>
-            <header role='banner'>
+            <header className='banner'>
                 <hgroup>
                     <h1><a href='/'>Chase Nickel</a></h1>
                 </hgroup>
@@ -14,15 +14,17 @@ export default function Home() {
                     <li><a href='https://github.com/Chase-Nickel'>Github</a></li>
                 </ul>
             </header>
-            <nav className='ribbon-top'>
-
-            </nav>
-            <div className='main'>
-                Home page
+            <nav className='ribbon-top'></nav>
+            <div className='content'>
+                <header>
+                    <h1>Welcome to my blog!</h1>
+                </header>
+                <h4>2024</h4>
+                <ul className='blog-links'>
+                    <li><a href='/2024/May/18'>May 18</a></li>
+                </ul>
             </div>
-            <nav className='ribbon-bottom'>
-
-            </nav>
+            <nav className='ribbon-bottom'></nav>
         </div>
     );
 }
