@@ -22,7 +22,7 @@ export default function AboutPage() {
                 <p>Hi, my name is Chase. I go to Milwaukee School of Languages.
                     I'm in the PEOPLE program. I do a lot of math and science related
                     activities. I'm interested in studying Aerospace Engineering or 
-                    Software Engineering, hopefully at UW Madison!</p>
+                    Software Engineering— hopefully at UW–Madison!</p>
             </div>
             <nav className='ribbon-bottom'></nav>
         </div>
