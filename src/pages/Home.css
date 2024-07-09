@@ -1,0 +1,84 @@
+:root {
+    color: #000000;
+}
+
+hgroup {
+    padding: 3em 0em 2em 2em;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 1400;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    border-left-width: 35px;
+    border-left-color: #FF5E00;
+    border-left-style: solid;
+    border-image: url("/stripes.png") 0 0 0 35 repeat;
+
+    margin-right: 35px;
+
+    background-color: #FFFFFF;
+    border-top-right-radius: 10px;
+}
+
+.header-links {
+    color: #000000;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: right;
+    list-style-type: none;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    margin: 1em 35px 1em 0px;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none;
+}
+
+nav {
+    background-color: #FF7E3E;
+    z-index: 1500;
+    height: 35px;
+    padding: 0.5em 35px;
+}
+
+.header-nav {
+    margin: 0px 35px;
+    clear: both;
+    position: relative;
+}
+
+.header-nav::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -35px;
+    top: 0px;
+    border: 35px solid;
+    border-color: #FF7E3E transparent transparent transparent;
+}
+
+.header-nav::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -35px;
+    bottom: 0px;
+    border: 35px solid;
+    border-color: transparent transparent #FF7E3E transparent;
+}
